@@ -1,0 +1,34 @@
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p,
+a,
+li,
+span,
+strong {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}

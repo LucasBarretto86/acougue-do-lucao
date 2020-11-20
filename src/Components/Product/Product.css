@@ -1,0 +1,25 @@
+.meat__content {
+    max-width: 400px;
+}
+
+.meat a {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.meat h3 {
+    color: #3f2d20;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    z-index: 2;
+}
+
+.meat__link {
+    position: relative;
+    background-position: top left, bottom center;
+    background-size: cover, 100% 120px;
+    background-repeat: no-repeat;
+}

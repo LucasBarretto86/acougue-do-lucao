@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  width: 640px;
+  margin: 0 auto;
+}
+
+header img {
+  position: absolute;
+  height: 88px;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #3f2d20;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+footer {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+@media(max-width: 600px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header img {
+    position: relative;
+    height: 48px;
+    margin-bottom: 5px;
+  }
+}
